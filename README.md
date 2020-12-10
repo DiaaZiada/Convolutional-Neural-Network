@@ -2,8 +2,7 @@
 
 
 # Convolution Neural Network
-this project allow to make convolution neural network in simple way with optimization and regularization 
-
+this project allows making convolution neural network in a simple way with optimization and regularization
 **Requirements**
 - [Python](https://www.python.org/) 3.*
 - [Numpy](http://www.numpy.org/)
@@ -16,9 +15,9 @@ this project allow to make convolution neural network in simple way with optimiz
 2. Neural network layers
 3. Weight initializer
 	- Random numbers between 0 to 0.9999...   multiplied by 0.01  
-	- Random numbers between 0 to 0.9999...   multiplied by   $$ \sqrt{layer dim[l-1]} $$	 
-	- HE initializer  Random numbers between 0 to 0.9999...   multiplied by   $$ \sqrt{2/layer dim[l-1]} $$
-	- Xavier initializer  Random numbers between 0 to 0.9999...   multiplied by   $$ \sqrt{1/layer dim[l-1]} $$
+	- Random numbers between 0 to 0.9999...   multiplied by   $ \sqrt{layer dim[l-1]} $ 
+	- HE initializer  Random numbers between 0 to 0.9999...   multiplied by   $ \sqrt{2/layer dim[l-1]} $
+	- Xavier initializer  Random numbers between 0 to 0.9999...   multiplied by   $ \sqrt{1/layer dim[l-1]} $
 4. Number of epochs
 5. Learning rate 
 5. Regularization
